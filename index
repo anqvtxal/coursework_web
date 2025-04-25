@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прогноз погоды</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+        <img src="images/weather-icon.png" alt="Иконка погоды" class="logo">
+        <h1>Прогноз погоды</h1>
+        </div>
+    </header>
+    
+    <div class="side-panel left-panel">
+        <h3>Интересный факт</h3>
+        <p>Облака могут весить сотни тонн, но не падают благодаря воздушным потокам!</p>
+    </div>
+
+    <div class="side-panel right-panel">
+        <h3>Знаешь ли ты?</h3>
+        <p>На Венере день длится дольше, чем год — почти 243 земных суток!</p>
+    </div>
+
+    <main>
+        <div class="city-buttons">
+        <a href="moscow.html" class="city-button">Москва</a>
+        <a href="spb.html" class="city-button">Санкт-Петербург</a>
+        </div>
+
+        <div class="info-box">
+        Выберите город, чтобы узнать погоду.
+        </div>
+        
+    </main>
+    <footer>
+        <p>&copy; 2025 Сайт погоды, Лебедева Анна</p>
+    </footer>
+</body>
+</html>
