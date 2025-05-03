@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Обо мне — Иван Фотограф</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div>Иван Фотограф</div>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="portfolio.html">Портфолио</a>
+        <a href="about.html">Обо мне</a>
+        <a href="contact.html">Контакты</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="about-block">
+        <img
+          src="https://images.unsplash.com/photo-1736069997029-b639ab8d33e2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Иван Фотограф"
+          class="about-photo"
+        />
+        <div class="about-text">
+          <h1>Обо мне</h1>
+          <p>Привет! Меня зовут Иван, я профессиональный фотограф с опытом более 10 лет.</p>
+          <p>Я специализируюсь на портретной, свадебной и lifestyle фотографии. Моя студия — это уютное пространство, где каждый может почувствовать себя комфортно.</p>
+          <p>Я верю, что настоящая фотография рождается в доверии между фотографом и моделью. Добро пожаловать!</p>
+          <a href="portfolio.html" class="button">Посмотреть портфолио</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    &copy; 2025 Иван Фотограф.
+  </footer>
+</body>
+</html>
