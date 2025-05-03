@@ -1,42 +1,73 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Прогноз погоды</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Главная — Фотограф</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 <body>
-    <header>
-        <div class="header-content">
-        <img src="images/weather-icon.png" alt="Иконка погоды" class="logo">
-        <h1>Прогноз погоды</h1>
-        </div>
-    </header>
-    
-    <div class="side-panel left-panel">
-        <h3>Интересный факт</h3>
-        <p>Облака могут весить сотни тонн, но не падают благодаря воздушным потокам!</p>
-    </div>
+  <header>
+    <div><strong>Иван Фотограф</strong></div>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="portfolio.html">Портфолио</a>
+      <a href="about.html">Обо мне</a>
+      <a href="contact.html">Контакты</a>
+    </nav>
+  </header>
 
-    <div class="side-panel right-panel">
-        <h3>Знаешь ли ты?</h3>
-        <p>На Венере день длится дольше, чем год — почти 243 земных суток!</p>
-    </div>
+  <section class="hero">
+    <h1>Добро пожаловать в моё портфолио</h1>
+    <p>Я — профессиональный фотограф. Снимаю моменты, которые остаются с вами навсегда.</p>
+  </section>
 
-    <main>
-        <div class="city-buttons">
-        <a href="moscow.html" class="city-button">Москва</a>
-        <a href="spb.html" class="city-button">Санкт-Петербург</a>
+  <section class="services">
+    <h2>Мои услуги</h2>
+    <ul>
+      <li>
+        <div class="icon">
+          <i class="fas fa-camera-retro"></i>
         </div>
+        <p>Портретная съёмка</p>
+      </li>
+      <li>
+        <div class="icon">
+          <i class="fas fa-ring"></i>
+        </div>
+        <p>Свадебная фотография</p>
+      </li>
+      <li>
+        <div class="icon">
+          <i class="fas fa-building"></i>
+        </div>
+        <p>Студийные фотосессии</p>
+      </li>
+      <li>
+        <div class="icon">
+          <i class="fas fa-tree"></i>
+        </div>
+        <p>Съёмка на природе</p>
+      </li>
+    </ul>
+  </section>
 
-        <div class="info-box">
-        Выберите город, чтобы узнать погоду.
-        </div>
-        
-    </main>
-    <footer>
-        <p>&copy; 2025 Сайт погоды, Лебедева Анна</p>
-    </footer>
+  <section class="testimonials">
+    <h2>Отзывы клиентов</h2>
+    <blockquote>“Фотографии просто волшебные! Иван — мастер своего дела.” — Анна</blockquote>
+    <blockquote>“Очень комфортная съёмка, красивые кадры. Рекомендую!” — Дмитрий</blockquote>
+  </section>
+
+  <section class="cta">
+    <h2>Готовы к съёмке?</h2>
+    <p>Запишитесь на фотосессию прямо сейчас и сохраните самые тёплые моменты!</p>
+    <a href="contact.html" class="button">Связаться со мной</a>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 Иван Фотограф. 
+  </footer>
 </body>
 </html>
+
