@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфолио — Иван Фотограф</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div>Иван Фотограф</div>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="portfolio.html">Портфолио</a>
+        <a href="about.html">Обо мне</a>
+        <a href="contact.html">Контакты</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="portfolio-section">
+        <h1 class="portfolio-title">Портфолио</h1>
+
+        <div class="portfolio-block">
+          <details open>
+            <summary>Свадебные съёмки</summary>
+            <div class="gallery">
+              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Свадьба 1" />
+              <img src="https://images.unsplash.com/photo-1591700331354-f7eea65d1ce8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Свадьба 2" />
+              <img src="https://images.unsplash.com/flagged/photo-1620830102229-9db5c00d4afc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Свадьба 3" />
+            </div>
+          </details>
+        </div>
+
+        <div class="portfolio-block">
+          <details>
+            <summary>Портреты</summary>
+            <div class="gallery">
+              <img src="https://images.unsplash.com/photo-1533618561606-3b2a0766d159?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Портрет 1" />
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Портрет 2" />
+              <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Портрет 3" />
+            </div>
+          </details>
+        </div>
+
+        <div class="portfolio-block">
+          <details>
+            <summary>Студийные съёмки</summary>
+            <div class="gallery">
+              <img src="https://plus.unsplash.com/premium_photo-1664451177406-79bcc40dfa39?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Студия 1" />
+              <img src="https://images.unsplash.com/photo-1684598273539-b893a21517e2?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Студия 2" />
+              <img src="https://plus.unsplash.com/premium_photo-1682125641711-fbe8c7dcf36b?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Студия 3" />
+            </div>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      &copy; 2025 Иван Фотограф.
+    </footer>
+  </div>
+</body>
+</html>
